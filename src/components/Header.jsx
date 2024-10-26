@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { IoHome } from "react-icons/io5";
+import { FaAddressCard } from "react-icons/fa";
+import { FaBellConcierge } from "react-icons/fa6";
 
 function Header() {
   return (
@@ -13,12 +15,14 @@ function Header() {
         </div>
         <div>
           <Link>About</Link>
-          <IoHome />
+          <FaAddressCard />
+
 
         </div>
         <div>
-          <Link>Home</Link>
-          <IoHome />
+          <Link>Services</Link>
+          <FaBellConcierge />
+
 
         </div>
         <div>
