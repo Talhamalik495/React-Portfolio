@@ -13,35 +13,35 @@ function Header() {
         <div className="w-full h-12 bg-sky-400 text-white flex justify-center items-center font-medium">
           <h1>Talha Malik</h1>
         </div>
-        <Link className="w-full h-20 border-b border-black-300 flex justify-center items-center flex-col gap-1 hover:text-sky-400">
+        <Link className="w-full h-20 border-b border-black-300 flex justify-center items-center flex-col gap-1 hover:text-sky-300">
           <span className="text-2xl">
             <IoHome />
           </span>
           <span className="text-sm font-medium">Home</span>
         </Link>
 
-        <Link className="w-full h-20  border-b border-black-300 flex justify-center items-center flex-col gap-1  hover:text-sky-400">
+        <Link className="w-full h-20  border-b border-black-300 flex justify-center items-center flex-col gap-1  hover:text-sky-300">
           <span className="text-sm font-medium">About Me</span>
           <span className="text-2xl">
             <FaAddressCard />
           </span>
         </Link>
 
-        <Link className="w-full h-20  border-b border-black-300 flex justify-center items-center flex-col gap-1 hover:text-sky-400">
+        <Link className="w-full h-20  border-b border-black-300 flex justify-center items-center flex-col gap-1 hover:text-sky-300">
           <span className="text-sm font-medium">Services</span>
           <span className="text-2xl">
             <FaBellConcierge />
           </span>
         </Link>
 
-        <Link className="w-full h-20  border-b border-black-300 flex justify-center items-center flex-col gap-1 hover:text-sky-400">
+        <Link className="w-full h-20  border-b border-black-300 flex justify-center items-center flex-col gap-1 hover:text-sky-300">
           <span className="text-sm font-medium">Portfolio</span>
           <span className="text-2xl">
             <FaBriefcase />
           </span>
         </Link>
 
-        <Link className="w-full h-20  border-b border-black-300 flex justify-center items-center flex-col gap-1 hover:text-sky-400">
+        <Link className="w-full h-20  border-b border-black-300 flex justify-center items-center flex-col gap-1 hover:text-sky-300">
           <span className="text-sm font-medium">Contact</span>
           <span className="text-2xl">
             <FaIdCardAlt />
