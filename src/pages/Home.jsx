@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Header() {
+function Home() {
     return (
        <></> 
     )
 }
 
-export default Header
+export default Home
