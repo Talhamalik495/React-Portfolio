@@ -13,8 +13,8 @@ function About() {
         <p>SENIOR & MOBILE AND WEB APP DEVELOPER</p>
       </div>
       <div className="w-full flex gap-16 px-16">
-        <div className="w-[40%] bg-white flex justify-center  py-5 px-5 rounded-md relative ">
-          <div className="w-14 h-56    absolute  top-10 left-5 bg-white flex flex-col justify-center items-center gap-3 py-2">
+        <div className="w-[40%] bg-white flex justify-center  py-3 px-3 rounded-md relative ">
+          <div className="w-14 h-56    absolute  top-10 left-3 bg-white flex flex-col justify-center items-center gap-3 py-2">
             <Link className="w-10 h-12  bg-sky-400 text-white flex justify-center items-center">
               {" "}
               <FaFacebookF />
@@ -33,7 +33,7 @@ function About() {
               <FaLinkedinIn />
             </Link>
           </div>
-          <div className="w-[100%] bg-slate-200 rounded-md">
+          <div className="w-[100%] bg-slate-200 ">
             <img className="h-[550px]" src={Boy} alt="" />
           </div>
         </div>
