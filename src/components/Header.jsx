@@ -10,7 +10,7 @@ function Header() {
   return (
     <>
       <div className="w-24 h-full fixed  flex flex-col shadow-[0.2px_0px_5px_rgba(0,0,0,0.5)]">
-        <div className="w-full h-12 bg-sky-400 text-white flex justify-center items-center font-medium">
+        <div className="w-full h-10 bg-sky-400 text-white flex justify-center items-center font-medium">
           <h1>Talha Malik</h1>
         </div>
         <Link className="w-full h-20 border-b border-black-300 flex justify-center items-center flex-col gap-1 hover:text-sky-300">
