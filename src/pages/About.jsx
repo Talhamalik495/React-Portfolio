@@ -33,7 +33,14 @@ function About() {
               <FaLinkedinIn />
             </Link>
           </div>
-          <div className="w-[100%] bg-slate-200">
+          <div
+            className="w-[100%] bg-slate-200"
+            style={{
+              backgroundImage: `url(
+                "https://www.shutterstock.com/shutterstock/photos/1288815238/display_1500/stock-photo-white-rectangle-mosaic-tiles-texture-background-classic-white-metro-tile-long-wide-picture-1288815238.jpg"
+              )`,
+            }}
+          >
             <img className="h-[550px]" src={Boy} alt="" />
           </div>
         </div>
