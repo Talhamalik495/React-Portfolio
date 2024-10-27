@@ -4,6 +4,7 @@ import { Outlet } from "react-router";
 import Footer from "../components/Footer";
 import Home from "./Home";
 import About from "./About";
+import Skills from "./Skills";
 
 function Layout() {
   return (
@@ -13,6 +14,7 @@ function Layout() {
         <div>
           <Home />
           <About />
+          {/* <Skills /> */}
         </div>
       </div>
       <Footer />
